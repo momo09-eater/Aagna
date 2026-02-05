@@ -1,87 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ankith ❤️ Aagna</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>MY BABYSWEET❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body{
-      margin:0;
-      height:100vh;
-      font-family:'Segoe UI',sans-serif;
-      background:linear-gradient(135deg,#ff4d6d,#ff85a1);
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      overflow:hidden;
-      color:white;
-      text-align:center;
-    }
+<style>
+body{
+  margin:0;
+  min-height:100vh;
+  font-family:'Segoe UI',sans-serif;
+  background:linear-gradient(135deg,#ff4d6d,#ff85a1);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+  color:white;
+  text-align:center;
+}
 
-    .card{
-      background:rgba(255,255,255,0.15);
-      padding:35px;
-      border-radius:22px;
-      backdrop-filter:blur(12px);
-      box-shadow:0 15px 35px rgba(0,0,0,0.25);
-      max-width:420px;
-      z-index:2;
-    }
+.card{
+  background:rgba(255,255,255,0.15);
+  padding:35px;
+  border-radius:22px;
+  backdrop-filter:blur(12px);
+  box-shadow:0 15px 35px rgba(0,0,0,0.25);
+  max-width:420px;
+  z-index:2;
+}
 
-    h1{font-size:2.4rem;margin-bottom:10px}
-    h2{font-weight:normal;margin-bottom:20px}
+h1{font-size:2.4rem;margin-bottom:10px}
+h2{font-weight:normal;margin-bottom:20px}
 
-    .letter p{
-      font-size:1.05rem;
-      line-height:1.7;
-      margin-bottom:12px;
-    }
+.letter p{
+  font-size:1.05rem;
+  line-height:1.7;
+  margin-bottom:12px;
+}
 
-    .buttons{
-      margin-top:20px;
-      position:relative;
-    }
+.buttons{margin-top:20px;position:relative}
 
-    button{
-      padding:12px 24px;
-      border:none;
-      border-radius:30px;
-      font-size:1rem;
-      cursor:pointer;
-      margin:8px;
-      transition:transform 0.2s;
-    }
+button{
+  padding:12px 24px;
+  border:none;
+  border-radius:30px;
+  font-size:1rem;
+  cursor:pointer;
+  margin:8px;
+  transition:transform .2s;
+}
 
-    .yes{
-      background:#ff2f5b;
-      color:white;
-    }
+.yes{background:#ff2f5b;color:white}
+.no{background:white;color:#ff2f5b;position:relative}
 
-    .no{
-      background:white;
-      color:#ff2f5b;
-      position:relative;
-    }
+button:hover{transform:scale(1.12)}
 
-    button:hover{
-      transform:scale(1.12);
-    }
+.heart{
+  position:absolute;
+  font-size:22px;
+  animation:float 6s linear infinite;
+  opacity:.8;
+}
 
-    .heart{
-      position:absolute;
-      font-size:22px;
-      animation:float 6s linear infinite;
-      opacity:0.8;
-      z-index:1;
-    }
+@keyframes float{
+  0%{transform:translateY(100vh) scale(.6);opacity:0}
+  50%{opacity:1}
+  100%{transform:translateY(-10vh) scale(1.3);opacity:0}
+}
 
-    @keyframes float{
-      0%{transform:translateY(100vh) scale(0.6);opacity:0}
-      50%{opacity:1}
-      100%{transform:translateY(-10vh) scale(1.3);opacity:0}
-    }
-  </style>
+/* Fade animations */
+.fade-in{
+  opacity:0;
+  animation:fadeIn 1.5s ease forwards;
+}
+
+.fade-in-delay{
+  opacity:0;
+  animation:fadeIn 1.5s ease forwards;
+  animation-delay:1.5s;
+}
+
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(10px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* Heart burst */
+.heart-burst{
+  position:fixed;
+  left:50%;
+  top:50%;
+  pointer-events:none;
+  animation:burst 1.8s ease-out forwards;
+}
+
+@keyframes burst{
+  0%{transform:translate(0,0) scale(.4);opacity:1}
+  100%{transform:translate(var(--x),var(--y)) scale(1.6);opacity:0}
+}
+
+/* Photo */
+.love-photo{
+  width:100%;
+  max-width:280px;
+  border-radius:18px;
+  margin:25px auto;
+  display:block;
+  opacity:0;
+  animation:fadeIn 1.5s ease forwards;
+  animation-delay:3s;
+  box-shadow:0 12px 25px rgba(0,0,0,0.25);
+}
+</style>
 </head>
 
 <body>
@@ -92,43 +122,14 @@
 
   <div class="letter">
     <p><strong>My momo ❤️</strong></p>
-
-    <p>
-      I miss you more and more everyday and not one day goes by where I wish I'm
-      there next to you pissing you off, wanting to drink your special tea,
-      wanting to sleep with you, wanting to cook for you while you sit next to
-      me and blabber about how much of a bitch Damini and Vidhula are and so many
-      more things.
-    </p>
-
-    <p>
-      I know things are not the way we want it to be right now but thank you for
-      always sticking with me, thank you for always being patient with me,
-      thank you for telling me the same thing over a 100 TIMES without giving
-      up, thank you for always being there for me whenever I feel down or upset
-      and thank you for being the sun in my life.
-    </p>
-
-    <p>
-      I honestly don't know where I would be without you and don't want to
-      think about it also. I'm so grateful for you and this is the least I can
-      do for you.
-    </p>
-
-    <p>
-      I hope you like it and I can't wait for all the remaining Valentine's to
-      spend with you.
-    </p>
-
-    <p style="margin-top:20px">
-      With love,<br>
-      <strong>Your boyfie 💕</strong>
-    </p>
+    <p>I miss you more and more everyday and not one day goes by where I wish I'm there next to you pissing you off, wanting to drink your special tea, wanting to sleep with you, wanting to cook for you while you sit next to me and blabber about how much of a bitch Damini and Vidhula are and so many more things.</p>
+    <p>I know things are not the way we want it to be right now but thank you for always sticking with me, thank you for always being patient with me, thank you for telling me the same thing over a 100 TIMES without giving up, thank you for always being there for me whenever I feel down or upset and thank you for being the sun in my life.</p>
+    <p>I honestly don't know where I would be without you and don't want to think about it also. I'm so grateful for you and this is the least I can do for you.</p>
+    <p>I hope you like it and I can't wait for all the remaining Valentine's to spend with you.</p>
+    <p style="margin-top:20px"><strong>Your boyfie 💕</strong></p>
   </div>
 
-  <p style="margin-top:20px;font-size:1.2rem">
-    <strong>Will you be my Valentine? 💖</strong>
-  </p>
+  <p style="margin-top:20px;font-size:1.2rem"><strong>Will you be my Valentine? 💖</strong></p>
 
   <div class="buttons">
     <button class="yes" onclick="yesClick()">Yes 💘</button>
@@ -137,65 +138,101 @@
 </div>
 
 <script>
-  function yesClick(){
-    document.body.innerHTML = `
-      <div style="
-        height:100vh;
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        background:linear-gradient(135deg,#ff758c,#ff7eb3);
-        color:white;
-        padding:30px;
-        font-family:'Segoe UI',sans-serif;
-      ">
-        <h1 style="font-size:3rem">Ankith ❤️ Aagna</h1>
+/* YES PAGE */
+function yesClick(){
+  document.body.innerHTML = `
+  <div style="
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff758c,#ff7eb3);
+    color:white;
+    font-family:'Segoe UI',sans-serif;
+    padding:30px;
+    text-align:center;">
+    <div style="
+      max-width:650px;
+      background:rgba(255,255,255,0.15);
+      padding:35px;
+      border-radius:22px;
+      backdrop-filter:blur(12px);
+      box-shadow:0 15px 35px rgba(0,0,0,0.25);">
 
-        <p style="font-size:1.6rem;max-width:520px">
-          Today, tomorrow, and all the days after…  
-          it will always be you 💕
-        </p>
+      <h1 class="fade-in">Hehehehe 😗</h1>
 
-        <p style="font-size:1.2rem;margin-top:20px">
-          Happy Valentine’s Day, my momo 🌹
-        </p>
+      <p class="fade-in-delay" style="font-size:1.15rem;line-height:1.7;">
+        I knew you would say yes. This is not anything crazy,
+        but I hope this can brighten up your day a bit atleast.
+        <br><br>
+        I love you so much jaanu — you will always and forever be my Valentine 💕
+      </p>
 
-        <p style="margin-top:30px">
-          Forever yours,<br>
-          <strong>Your boyfie 💘</strong>
-        </p>
-      </div>
-    `;
+      <!-- OPTIONAL PHOTO -->
+      <!-- Upload love.jpg to the repo -->
+      <img src="love.jpg" class="love-photo" alt="Us ❤️">
+
+      <p style="line-height:1.7;font-size:1.05rem;">
+        I miss you more and more everyday and not one day goes by where I wish I'm
+        there next to you pissing you off, wanting to drink your special tea,
+        wanting to sleep with you, wanting to cook for you while you sit next to
+        me and blabber about how much of a bitch Damini and Vidhula are and so many
+        more things.
+      </p>
+
+      <p style="line-height:1.7;font-size:1.05rem;">
+        Thank you for always sticking with me, for being patient with me,
+        for never giving up on me, and for being the sun in my life.
+      </p>
+
+      <p style="margin-top:25px;"><strong>Your boyfie 💕</strong></p>
+    </div>
+  </div>
+  `;
+  setTimeout(heartBurst,1800);
+}
+
+/* Moving NO */
+const noBtn=document.getElementById("noBtn");
+function moveNo(){
+  noBtn.style.position="absolute";
+  noBtn.style.left=Math.random()*(window.innerWidth-noBtn.offsetWidth)+"px";
+  noBtn.style.top=Math.random()*(window.innerHeight-noBtn.offsetHeight)+"px";
+}
+noBtn.addEventListener("mouseover",moveNo);
+noBtn.addEventListener("click",moveNo);
+
+/* Floating hearts */
+function createHeart(){
+  const h=document.createElement("div");
+  h.className="heart";
+  h.innerHTML="❤️";
+  h.style.left=Math.random()*100+"vw";
+  h.style.animationDuration=(Math.random()*3+3)+"s";
+  document.body.appendChild(h);
+  setTimeout(()=>h.remove(),6000);
+}
+setInterval(createHeart,300);
+
+/* Heart burst */
+function heartBurst(){
+  const desktop=window.innerWidth>768;
+  const count=desktop?50:25;
+  const spread=desktop?500:300;
+  const size=desktop?26:20;
+
+  for(let i=0;i<count;i++){
+    const h=document.createElement("div");
+    h.className="heart-burst";
+    h.innerHTML="❤️";
+    h.style.fontSize=size+"px";
+    h.style.setProperty("--x",(Math.random()-.5)*spread+"px");
+    h.style.setProperty("--y",(Math.random()-.5)*spread+"px");
+    document.body.appendChild(h);
+    setTimeout(()=>h.remove(),1800);
   }
-
-  const noBtn = document.getElementById("noBtn");
-
-  function moveNo(){
-    const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
-    const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
-    noBtn.style.position = "absolute";
-    noBtn.style.left = x + "px";
-    noBtn.style.top = y + "px";
-  }
-
-  noBtn.addEventListener("mouseover", moveNo);
-  noBtn.addEventListener("click", moveNo);
-
-  function createHeart(){
-    const heart = document.createElement("div");
-    heart.className = "heart";
-    heart.innerHTML = "❤️";
-    heart.style.left = Math.random() * 100 + "vw";
-    heart.style.animationDuration = (Math.random() * 3 + 3) + "s";
-    document.body.appendChild(heart);
-    setTimeout(()=>heart.remove(),6000);
-  }
-
-  setInterval(createHeart,300);
+}
 </script>
 
 </body>
 </html>
-  
